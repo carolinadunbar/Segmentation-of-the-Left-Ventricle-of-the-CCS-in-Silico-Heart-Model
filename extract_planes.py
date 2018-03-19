@@ -10,8 +10,10 @@ from paraview.simple import *
 
 
 cut_labels=['Clip1','Clip2','Clip3','Clip4']
-folder_here='/Users/joaosoaresphd/Google Drive/CCS_heart-final_results/VTKs/cuts/'
-filename='cube_2'
+#Put path to folder here
+folder_here='/Users/path/to/folder'
+#Put filename here
+filename='filename'
 
 file_here=open(folder_here+filename+'.txt','w')
 print >> file_here, len(cut_labels)
